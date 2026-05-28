@@ -96,7 +96,7 @@
     submitBtn.disabled = true;
 
     const payload = { reason: selectedReason, locale: lang, version };
-    const otherText = textarea.value.trim();
+    const otherText = textarea.value.trim().slice(0, 300);
     if (selectedReason === 'other' && otherText) {
       payload.other_text = otherText;
     }
