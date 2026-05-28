@@ -33,8 +33,13 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
-  min-height: 100vh;
+  height: 100dvh;
   background:
     radial-gradient(circle at top left, rgba(0, 210, 160, 0.12), transparent 34rem),
     linear-gradient(135deg, var(--bg), #0b121a 70%);
@@ -59,9 +64,19 @@ body {
   border: 1px solid var(--border);
   border-radius: 12px;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.28);
-  padding: 24px 28px;
+  padding: clamp(16px, 3vh, 28px) clamp(16px, 3vw, 28px);
   width: 100%;
   max-width: 480px;
+  max-height: calc(100dvh - 32px);
+  display: flex;
+  flex-direction: column;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
 }
 
 /* Brand row */
@@ -101,13 +116,16 @@ body {
   line-height: 1.4;
 }
 
-/* Reasons list */
+/* Reasons list — flex-grow so it fills available space and scrolls internally */
 .reasons {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin-bottom: 12px;
+  gap: clamp(4px, 0.8vh, 8px);
+  margin-bottom: 10px;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
 }
 
 .reason-label {
@@ -236,13 +254,11 @@ body {
   line-height: 1.4;
 }
 
-/* Mobile */
-@media (max-width: 480px) {
-  .card {
-    padding: 18px 16px;
-  }
-
-  .headline {
-    font-size: 18px;
-  }
+/* Thank-you — center vertically in the flex card */
+.thankyou.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
