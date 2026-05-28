@@ -72,7 +72,11 @@
         label.classList.add('selected');
         selectedReason = key;
         submitBtn.disabled = false;
-        textarea.classList.toggle('visible', key === 'other');
+        const isOther = key === 'other';
+        textarea.classList.toggle('visible', isOther);
+        if (isOther) {
+          setTimeout(() => textarea.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+        }
       });
     });
   }
