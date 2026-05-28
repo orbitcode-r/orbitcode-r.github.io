@@ -4,7 +4,7 @@
   "submit": "Submit",
   "thankYou": "Thank you for your feedback!",
   "thankYouSub": "Your input helps us improve Privacy Blur.",
-  "otherPlaceholder": "Tell us more...",
+  "otherPlaceholder": "Any details? (optional)",
   "reasons": {
     "whatsapp_update": "WhatsApp updated and blur stopped working",
     "performance": "It slowed down WhatsApp",

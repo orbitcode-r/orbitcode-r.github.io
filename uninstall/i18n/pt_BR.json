@@ -4,7 +4,7 @@
   "submit": "Enviar",
   "thankYou": "Obrigado pelo seu feedback!",
   "thankYouSub": "Sua contribuição nos ajuda a melhorar o Privacy Blur.",
-  "otherPlaceholder": "Conte-nos mais...",
+  "otherPlaceholder": "Algum detalhe? (opcional)",
   "reasons": {
     "whatsapp_update": "O WhatsApp foi atualizado e o desfoque parou de funcionar",
     "performance": "Deixou o WhatsApp mais lento",

@@ -33,7 +33,7 @@
   const headlineEl        = document.getElementById('headline');
   const subheadingEl      = document.getElementById('subheading');
   const reasonsList       = document.getElementById('reasons-list');
-  const textarea          = document.getElementById('other-textarea');
+  const textarea          = document.getElementById('detail-textarea');
   const submitBtn         = document.getElementById('submit-btn');
   const formSection       = document.getElementById('form-section');
   const thankyouEl        = document.getElementById('thankyou');
@@ -80,11 +80,9 @@
         label.classList.add('selected');
         selectedReason = key;
         submitBtn.disabled = false;
-        const isOther = key === 'other';
-        textarea.classList.toggle('visible', isOther);
-        if (isOther) {
-          setTimeout(() => textarea.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
-        }
+        li.appendChild(textarea);
+        textarea.classList.add('visible');
+        setTimeout(() => textarea.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
       });
     });
   }
@@ -97,7 +95,7 @@
 
     const payload = { reason: selectedReason, locale: lang, version };
     const otherText = textarea.value.trim().slice(0, 300);
-    if (selectedReason === 'other' && otherText) {
+    if (otherText) {
       payload.other_text = otherText;
     }
 

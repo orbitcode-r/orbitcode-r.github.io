@@ -4,7 +4,7 @@
   "submit": "Envoyer",
   "thankYou": "Merci pour ton retour !",
   "thankYouSub": "Ton avis nous aide à améliorer Privacy Blur.",
-  "otherPlaceholder": "Dis-nous en plus...",
+  "otherPlaceholder": "Des détails ? (facultatif)",
   "reasons": {
     "whatsapp_update": "WhatsApp a été mis à jour et le flou a cessé de fonctionner",
     "performance": "Ça ralentissait WhatsApp",

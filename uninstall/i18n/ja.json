@@ -4,7 +4,7 @@
   "submit": "送信",
   "thankYou": "フィードバックありがとうございます！",
   "thankYouSub": "ご意見はPrivacy Blurの改善に役立てます。",
-  "otherPlaceholder": "詳しくお聞かせください...",
+  "otherPlaceholder": "詳細はありますか？（任意）",
   "reasons": {
     "whatsapp_update": "WhatsAppが更新されてブラーが機能しなくなった",
     "performance": "WhatsAppが遅くなった",

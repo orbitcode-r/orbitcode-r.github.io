@@ -197,7 +197,7 @@ body {
 /* RTL — dir="rtl" on <html> handles flex direction and text alignment automatically */
 
 /* Textarea */
-.other-textarea {
+.detail-textarea {
   display: none;
   width: 100%;
   min-height: 72px;
@@ -210,15 +210,15 @@ body {
   font-size: 13px;
   resize: vertical;
   outline: none;
-  margin-bottom: 12px;
+  margin-top: 8px;
   transition: border-color 0.15s;
 }
 
-.other-textarea:focus {
+.detail-textarea:focus {
   border-color: var(--border-accent);
 }
 
-.other-textarea.visible {
+.detail-textarea.visible {
   display: block;
 }
 

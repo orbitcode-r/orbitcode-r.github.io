@@ -4,7 +4,7 @@
   "submit": "Отправить",
   "thankYou": "Спасибо за ваш отзыв!",
   "thankYouSub": "Ваш отзыв помогает нам улучшать Privacy Blur.",
-  "otherPlaceholder": "Расскажите подробнее...",
+  "otherPlaceholder": "Есть подробности? (необязательно)",
   "reasons": {
     "whatsapp_update": "WhatsApp обновился и размытие перестало работать",
     "performance": "Расширение замедляло WhatsApp",

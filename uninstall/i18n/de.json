@@ -4,7 +4,7 @@
   "submit": "Absenden",
   "thankYou": "Danke für dein Feedback!",
   "thankYouSub": "Dein Beitrag hilft uns, Privacy Blur zu verbessern.",
-  "otherPlaceholder": "Erzähl uns mehr...",
+  "otherPlaceholder": "Weitere Details? (optional)",
   "reasons": {
     "whatsapp_update": "WhatsApp hat sich aktualisiert und die Unschärfe funktioniert nicht mehr",
     "performance": "Es hat WhatsApp verlangsamt",

@@ -4,7 +4,7 @@
   "submit": "提交",
   "thankYou": "感谢您的反馈！",
   "thankYouSub": "您的意见帮助我们改进 Privacy Blur。",
-  "otherPlaceholder": "请告诉我们更多...",
+  "otherPlaceholder": "有什么细节吗？（可选）",
   "reasons": {
     "whatsapp_update": "WhatsApp 更新后模糊功能停止工作",
     "performance": "导致 WhatsApp 变慢",

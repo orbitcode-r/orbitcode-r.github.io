@@ -4,7 +4,7 @@
   "submit": "제출",
   "thankYou": "피드백 감사합니다!",
   "thankYouSub": "소중한 의견이 Privacy Blur 개선에 도움이 됩니다.",
-  "otherPlaceholder": "더 자세히 알려주세요...",
+  "otherPlaceholder": "추가 내용이 있나요? (선택)",
   "reasons": {
     "whatsapp_update": "WhatsApp 업데이트 후 블러가 작동하지 않음",
     "performance": "WhatsApp이 느려졌음",

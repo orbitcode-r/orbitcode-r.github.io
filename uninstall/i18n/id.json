@@ -4,7 +4,7 @@
   "submit": "Kirim",
   "thankYou": "Terima kasih atas masukan kamu!",
   "thankYouSub": "Masukan kamu membantu kami meningkatkan Privacy Blur.",
-  "otherPlaceholder": "Ceritakan lebih lanjut...",
+  "otherPlaceholder": "Ada detail? (opsional)",
   "reasons": {
     "whatsapp_update": "WhatsApp diperbarui dan blur berhenti bekerja",
     "performance": "Membuat WhatsApp menjadi lambat",
