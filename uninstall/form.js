@@ -94,6 +94,7 @@
     }
 
     // Show thank-you instantly — fire and forget the request
+    sessionStorage.setItem('submitted', '1');
     formSection.style.display = 'none';
     thankyouEl.classList.add('visible');
 
@@ -111,5 +112,12 @@
   fetch(`i18n/${lang}.json`)
     .then(r => r.ok ? r.json() : fetch('i18n/en.json').then(r => r.json()))
     .catch(() => fetch('i18n/en.json').then(r => r.json()))
-    .then(render);
+    .then(t => {
+      render(t);
+      // If already submitted this session (e.g. user refreshed), skip straight to thank-you
+      if (sessionStorage.getItem('submitted')) {
+        formSection.style.display = 'none';
+        thankyouEl.classList.add('visible');
+      }
+    });
 })();
