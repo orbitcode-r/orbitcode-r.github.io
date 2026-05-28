@@ -108,6 +108,8 @@
   submitBtn.addEventListener('click', handleSubmit);
 
   // --- Load translations and init ---
-  // window._i18n was fired in <head> before any assets downloaded — no extra waterfall
-  window._i18n.then(render);
+  fetch(`i18n/${lang}.json`)
+    .then(r => r.ok ? r.json() : fetch('i18n/en.json').then(r => r.json()))
+    .catch(() => fetch('i18n/en.json').then(r => r.json()))
+    .then(render);
 })();
