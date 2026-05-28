@@ -190,15 +190,7 @@ body {
   cursor: pointer;
 }
 
-/* RTL — let the browser handle natural flow, just fix radio alignment */
-[dir="rtl"] .reason-label {
-  flex-direction: row-reverse;
-  text-align: right;
-}
-
-[dir="rtl"] .brand-row {
-  flex-direction: row-reverse;
-}
+/* RTL — dir="rtl" on <html> handles flex direction and text alignment automatically */
 
 /* Textarea */
 .other-textarea {
