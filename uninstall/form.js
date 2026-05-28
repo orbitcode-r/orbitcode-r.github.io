@@ -29,28 +29,26 @@
   document.documentElement.dir = RTL.includes(lang) ? 'rtl' : 'ltr';
 
   // --- DOM refs ---
-  const headlineEl   = document.getElementById('headline');
-  const subheadingEl = document.getElementById('subheading');
-  const reasonsList  = document.getElementById('reasons-list');
-  const textarea     = document.getElementById('other-textarea');
-  const submitBtn    = document.getElementById('submit-btn');
-  const formSection  = document.getElementById('form-section');
-  const thankyouEl   = document.getElementById('thankyou');
+  const headlineEl        = document.getElementById('headline');
+  const subheadingEl      = document.getElementById('subheading');
+  const reasonsList       = document.getElementById('reasons-list');
+  const textarea          = document.getElementById('other-textarea');
+  const submitBtn         = document.getElementById('submit-btn');
+  const formSection       = document.getElementById('form-section');
+  const thankyouEl        = document.getElementById('thankyou');
   const thankyouHeadlineEl = document.getElementById('thankyou-headline');
   const thankyouSubEl      = document.getElementById('thankyou-sub');
-  const closeBtn           = document.getElementById('close-btn');
 
   let selectedReason = null;
 
   // --- Render form with translations ---
   function render(t) {
-    headlineEl.textContent   = t.headline;
-    subheadingEl.textContent = t.subheading;
-    submitBtn.textContent    = t.submit;
-    textarea.placeholder     = t.otherPlaceholder;
-    thankyouHeadlineEl.textContent = t.thankYou;
-    thankyouSubEl.textContent      = t.thankYouSub;
-    closeBtn.textContent           = t.closeTab;
+    headlineEl.textContent          = t.headline;
+    subheadingEl.textContent        = t.subheading;
+    submitBtn.textContent           = t.submit;
+    textarea.placeholder            = t.otherPlaceholder;
+    thankyouHeadlineEl.textContent  = t.thankYou;
+    thankyouSubEl.textContent       = t.thankYouSub;
 
     reasonsList.innerHTML = '';
 
@@ -108,7 +106,6 @@
   }
 
   submitBtn.addEventListener('click', handleSubmit);
-  closeBtn.addEventListener('click', () => window.close());
 
   // --- Load translations and init ---
   fetch(`i18n/${lang}.json`)
