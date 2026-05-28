@@ -84,7 +84,7 @@
   }
 
   // --- Submit ---
-  async function handleSubmit() {
+  function handleSubmit() {
     if (!selectedReason) return;
 
     submitBtn.disabled = true;
@@ -95,19 +95,16 @@
       payload.other_text = otherText;
     }
 
-    try {
-      await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        mode: 'no-cors',
-        body: JSON.stringify(payload),
-        headers: { 'Content-Type': 'text/plain' },
-      });
-    } catch (_) {
-      // silent fail — still show thank you
-    }
-
+    // Show thank-you instantly — fire and forget the request
     formSection.style.display = 'none';
     thankyouEl.classList.add('visible');
+
+    fetch(WEBHOOK_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      body: JSON.stringify(payload),
+      headers: { 'Content-Type': 'text/plain' },
+    }).catch(() => {});
   }
 
   submitBtn.addEventListener('click', handleSubmit);
