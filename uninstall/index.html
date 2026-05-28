@@ -6,6 +6,14 @@
   <title>Privacy Blur for WhatsApp</title>
   <link rel="icon" type="image/png" href="logo.png">
   <link rel="stylesheet" href="style.css">
+  <script>
+    const _s = ['en','ar','de','el','es','fr','he','hi','id','it','ja','ko','nl','pl','pt_BR','pt_PT','ru','tr','zh_CN'];
+    const _r = (new URLSearchParams(location.search).get('lang') || '').replace('-', '_');
+    const _l = _s.includes(_r) ? _r : 'en';
+    window._i18n = fetch('i18n/' + _l + '.json')
+      .then(r => r.ok ? r.json() : fetch('i18n/en.json').then(r => r.json()))
+      .catch(() => fetch('i18n/en.json').then(r => r.json()));
+  </script>
 </head>
 <body>
   <div class="card">
