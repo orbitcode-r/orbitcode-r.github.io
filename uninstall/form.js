@@ -1,6 +1,6 @@
 (() => {
   const WEBHOOK_URL =
-    'https://script.google.com/macros/s/AKfycbzB_KXx7jp3A9BuzYU7WXs25M5x5tWl3vKOs-bBiT9FvLv0q7h_hepjU_gxIQ9SmNU/exec';
+    'https://script.google.com/macros/s/AKfycbyT7KmkpsFYIOKbpmFsfOiULqsI0el4AN54381U4DqLonQCkGI2_qle87bAVjE4Hc1S/exec';
 
   const SUPPORTED = [
     'en', 'ar', 'de', 'el', 'es', 'fr', 'he', 'hi', 'id', 'it',
@@ -23,6 +23,7 @@
   const params = new URLSearchParams(location.search);
   const rawLang = (params.get('lang') || '').replace('-', '_');
   const lang = SUPPORTED.includes(rawLang) ? rawLang : 'en';
+  const version = params.get('v') || '';
 
   // Apply direction immediately to avoid layout flash
   document.documentElement.lang = lang.replace('_', '-');
@@ -94,7 +95,7 @@
 
     submitBtn.disabled = true;
 
-    const payload = { reason: selectedReason, locale: lang };
+    const payload = { reason: selectedReason, locale: lang, version };
     const otherText = textarea.value.trim();
     if (selectedReason === 'other' && otherText) {
       payload.other_text = otherText;
