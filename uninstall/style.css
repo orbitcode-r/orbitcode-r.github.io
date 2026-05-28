@@ -73,10 +73,14 @@ body {
 }
 
 #form-section {
-  display: flex;
+  display: none;
   flex-direction: column;
   flex: 1;
   min-height: 0;
+}
+
+#form-section.visible {
+  display: flex;
 }
 
 /* Scrollable area: reasons + textarea only. Submit stays outside. */

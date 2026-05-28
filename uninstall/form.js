@@ -39,11 +39,11 @@
   const thankyouHeadlineEl = document.getElementById('thankyou-headline');
   const thankyouSubEl      = document.getElementById('thankyou-sub');
 
-  // Hide form immediately if already submitted — prevents flash on refresh
-  const alreadySubmitted = !!sessionStorage.getItem('submitted');
-  if (alreadySubmitted) {
-    formSection.style.display = 'none';
+  // Form is hidden in CSS by default — show the right state immediately, no flash
+  if (sessionStorage.getItem('submitted')) {
     thankyouEl.classList.add('visible');
+  } else {
+    formSection.classList.add('visible');
   }
 
   let selectedReason = null;
@@ -102,7 +102,7 @@
 
     // Show thank-you instantly — fire and forget the request
     sessionStorage.setItem('submitted', '1');
-    formSection.style.display = 'none';
+    formSection.classList.remove('visible');
     thankyouEl.classList.add('visible');
 
     fetch(WEBHOOK_URL, {
