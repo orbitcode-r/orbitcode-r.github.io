@@ -126,6 +126,29 @@ body {
   overflow-y: auto;
   flex: 1;
   min-height: 0;
+  padding-inline-end: 4px;
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-accent) transparent;
+}
+
+/* Webkit (Chrome, Edge, Safari) */
+.reasons::-webkit-scrollbar {
+  width: 4px;
+}
+
+.reasons::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.reasons::-webkit-scrollbar-thumb {
+  background: var(--border-accent);
+  border-radius: 999px;
+}
+
+.reasons::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
 }
 
 .reason-label {
