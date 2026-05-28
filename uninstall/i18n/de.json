@@ -1,0 +1,18 @@
+{
+  "headline": "Schade, dass du gehst",
+  "subheading": "Hilf uns zu verbessern — warum hast du deinstalliert?",
+  "submit": "Absenden",
+  "thankYou": "Danke für dein Feedback!",
+  "thankYouSub": "Dein Beitrag hilft uns, Privacy Blur zu verbessern.",
+  "otherPlaceholder": "Erzähl uns mehr...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp hat sich aktualisiert und die Unschärfe funktioniert nicht mehr",
+    "performance": "Es hat WhatsApp verlangsamt",
+    "not_working": "Es hat nicht wie erwartet funktioniert",
+    "too_complex": "Zu viele Einstellungen / zu kompliziert",
+    "no_whatsapp": "Ich nutze WhatsApp nicht mehr",
+    "better_solution": "Ich habe eine bessere Lösung gefunden",
+    "just_testing": "Ich wollte es nur ausprobieren",
+    "other": "Sonstiges"
+  }
+}

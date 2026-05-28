@@ -1,0 +1,18 @@
+{
+  "headline": "نأسف لرؤيتك تغادر",
+  "subheading": "ساعدنا على التحسين — لماذا قمت بإلغاء التثبيت؟",
+  "submit": "إرسال",
+  "thankYou": "شكراً على ملاحظاتك!",
+  "thankYouSub": "مساهمتك تساعدنا على تحسين Privacy Blur.",
+  "otherPlaceholder": "أخبرنا بالمزيد...",
+  "reasons": {
+    "whatsapp_update": "واتساب تحدّث وتوقف الطمس عن العمل",
+    "performance": "أبطأ تطبيق واتساب",
+    "not_working": "لم يعمل كما توقعت",
+    "too_complex": "إعدادات كثيرة جداً / معقد",
+    "no_whatsapp": "لم أعد أستخدم واتساب",
+    "better_solution": "وجدت حلاً أفضل",
+    "just_testing": "كنت أجرب فقط",
+    "other": "أخرى"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headline": "Sayang melihatmu pergi",
+  "subheading": "Bantu kami berkembang — mengapa kamu menghapus instalan?",
+  "submit": "Kirim",
+  "thankYou": "Terima kasih atas masukan kamu!",
+  "thankYouSub": "Masukan kamu membantu kami meningkatkan Privacy Blur.",
+  "otherPlaceholder": "Ceritakan lebih lanjut...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp diperbarui dan blur berhenti bekerja",
+    "performance": "Membuat WhatsApp menjadi lambat",
+    "not_working": "Tidak berfungsi sesuai harapan",
+    "too_complex": "Terlalu banyak pengaturan / terlalu rumit",
+    "no_whatsapp": "Saya tidak lagi menggunakan WhatsApp",
+    "better_solution": "Saya menemukan solusi yang lebih baik",
+    "just_testing": "Saya hanya mencoba-coba",
+    "other": "Lainnya"
+  }
+}

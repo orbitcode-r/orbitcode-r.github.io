@@ -1,0 +1,18 @@
+{
+  "headline": "残念ながらお別れです",
+  "subheading": "改善のためにご意見をお聞かせください — なぜアンインストールしましたか？",
+  "submit": "送信",
+  "thankYou": "フィードバックありがとうございます！",
+  "thankYouSub": "ご意見はPrivacy Blurの改善に役立てます。",
+  "otherPlaceholder": "詳しくお聞かせください...",
+  "reasons": {
+    "whatsapp_update": "WhatsAppが更新されてブラーが機能しなくなった",
+    "performance": "WhatsAppが遅くなった",
+    "not_working": "期待通りに動作しなかった",
+    "too_complex": "設定が多すぎる / 複雑すぎる",
+    "no_whatsapp": "WhatsAppを使わなくなった",
+    "better_solution": "より良い方法を見つけた",
+    "just_testing": "ただ試していただけ",
+    "other": "その他"
+  }
+}

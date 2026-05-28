@@ -1,0 +1,18 @@
+{
+  "headline": "떠나신다니 아쉽습니다",
+  "subheading": "개선에 도움을 주세요 — 왜 제거하셨나요?",
+  "submit": "제출",
+  "thankYou": "피드백 감사합니다!",
+  "thankYouSub": "소중한 의견이 Privacy Blur 개선에 도움이 됩니다.",
+  "otherPlaceholder": "더 자세히 알려주세요...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp 업데이트 후 블러가 작동하지 않음",
+    "performance": "WhatsApp이 느려졌음",
+    "not_working": "기대한 대로 작동하지 않았음",
+    "too_complex": "설정이 너무 많음 / 너무 복잡함",
+    "no_whatsapp": "더 이상 WhatsApp을 사용하지 않음",
+    "better_solution": "더 나은 방법을 찾았음",
+    "just_testing": "그냥 테스트해 본 것",
+    "other": "기타"
+  }
+}

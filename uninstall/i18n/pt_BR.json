@@ -1,0 +1,18 @@
+{
+  "headline": "Que pena que você está saindo",
+  "subheading": "Ajude-nos a melhorar — por que você desinstalou?",
+  "submit": "Enviar",
+  "thankYou": "Obrigado pelo seu feedback!",
+  "thankYouSub": "Sua contribuição nos ajuda a melhorar o Privacy Blur.",
+  "otherPlaceholder": "Conte-nos mais...",
+  "reasons": {
+    "whatsapp_update": "O WhatsApp foi atualizado e o desfoque parou de funcionar",
+    "performance": "Deixou o WhatsApp mais lento",
+    "not_working": "Não funcionou como esperado",
+    "too_complex": "Muitas configurações / muito complicado",
+    "no_whatsapp": "Não uso mais o WhatsApp",
+    "better_solution": "Encontrei uma solução melhor",
+    "just_testing": "Estava apenas testando",
+    "other": "Outro"
+  }
+}

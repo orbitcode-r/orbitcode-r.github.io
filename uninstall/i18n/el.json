@@ -1,0 +1,18 @@
+{
+  "headline": "Λυπόμαστε που φεύγεις",
+  "subheading": "Βοήθησέ μας να βελτιωθούμε — γιατί απεγκατέστησες;",
+  "submit": "Υποβολή",
+  "thankYou": "Ευχαριστούμε για τα σχόλιά σου!",
+  "thankYouSub": "Η συμβολή σου μας βοηθά να βελτιώσουμε το Privacy Blur.",
+  "otherPlaceholder": "Πες μας περισσότερα...",
+  "reasons": {
+    "whatsapp_update": "Το WhatsApp ενημερώθηκε και το blur σταμάτησε να λειτουργεί",
+    "performance": "Επιβράδυνε το WhatsApp",
+    "not_working": "Δεν λειτούργησε όπως ανέμενα",
+    "too_complex": "Πολλές ρυθμίσεις / πολύπλοκο",
+    "no_whatsapp": "Δεν χρησιμοποιώ πλέον το WhatsApp",
+    "better_solution": "Βρήκα καλύτερη λύση",
+    "just_testing": "Απλώς το δοκίμαζα",
+    "other": "Άλλο"
+  }
+}

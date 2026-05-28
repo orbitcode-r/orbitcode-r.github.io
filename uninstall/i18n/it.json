@@ -1,0 +1,18 @@
+{
+  "headline": "Ci dispiace vederti andare",
+  "subheading": "Aiutaci a migliorare — perché hai disinstallato?",
+  "submit": "Invia",
+  "thankYou": "Grazie per il tuo feedback!",
+  "thankYouSub": "Il tuo contributo ci aiuta a migliorare Privacy Blur.",
+  "otherPlaceholder": "Dicci di più...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp si è aggiornato e la sfocatura ha smesso di funzionare",
+    "performance": "Ha rallentato WhatsApp",
+    "not_working": "Non ha funzionato come previsto",
+    "too_complex": "Troppe impostazioni / troppo complicato",
+    "no_whatsapp": "Non uso più WhatsApp",
+    "better_solution": "Ho trovato una soluzione migliore",
+    "just_testing": "Stavo solo provando",
+    "other": "Altro"
+  }
+}

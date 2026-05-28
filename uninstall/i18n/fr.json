@@ -1,0 +1,18 @@
+{
+  "headline": "Désolé de te voir partir",
+  "subheading": "Aide-nous à nous améliorer — pourquoi as-tu désinstallé ?",
+  "submit": "Envoyer",
+  "thankYou": "Merci pour ton retour !",
+  "thankYouSub": "Ton avis nous aide à améliorer Privacy Blur.",
+  "otherPlaceholder": "Dis-nous en plus...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp a été mis à jour et le flou a cessé de fonctionner",
+    "performance": "Ça ralentissait WhatsApp",
+    "not_working": "Ça n'a pas fonctionné comme prévu",
+    "too_complex": "Trop de paramètres / trop compliqué",
+    "no_whatsapp": "Je n'utilise plus WhatsApp",
+    "better_solution": "J'ai trouvé une meilleure solution",
+    "just_testing": "Je testais juste l'extension",
+    "other": "Autre"
+  }
+}

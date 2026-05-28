@@ -1,0 +1,18 @@
+{
+  "headline": "Jammer dat je weggaat",
+  "subheading": "Help ons verbeteren — waarom heb je verwijderd?",
+  "submit": "Verzenden",
+  "thankYou": "Bedankt voor je feedback!",
+  "thankYouSub": "Jouw input helpt ons Privacy Blur te verbeteren.",
+  "otherPlaceholder": "Vertel ons meer...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp heeft een update gekregen en de blur werkt niet meer",
+    "performance": "Het vertraagde WhatsApp",
+    "not_working": "Het werkte niet zoals verwacht",
+    "too_complex": "Te veel instellingen / te ingewikkeld",
+    "no_whatsapp": "Ik gebruik WhatsApp niet meer",
+    "better_solution": "Ik heb een betere oplossing gevonden",
+    "just_testing": "Ik was het alleen maar uitproberen",
+    "other": "Anders"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headline": "Gördüğüne üzüldük",
+  "subheading": "Gelişmemize yardım edin — neden kaldırdınız?",
+  "submit": "Gönder",
+  "thankYou": "Geri bildiriminiz için teşekkürler!",
+  "thankYouSub": "Görüşleriniz Privacy Blur'u geliştirmemize yardımcı oluyor.",
+  "otherPlaceholder": "Daha fazla bilgi verin...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp güncellendi ve bulanıklaştırma çalışmayı durdurdu",
+    "performance": "WhatsApp'ı yavaşlattı",
+    "not_working": "Beklediğim gibi çalışmadı",
+    "too_complex": "Çok fazla ayar / çok karmaşık",
+    "no_whatsapp": "Artık WhatsApp kullanmıyorum",
+    "better_solution": "Daha iyi bir çözüm buldum",
+    "just_testing": "Sadece deniyordum",
+    "other": "Diğer"
+  }
+}

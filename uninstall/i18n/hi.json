@@ -1,0 +1,18 @@
+{
+  "headline": "आपको जाते देख दुख हुआ",
+  "subheading": "हमें बेहतर बनाने में मदद करें — आपने अनइंस्टॉल क्यों किया?",
+  "submit": "सबमिट करें",
+  "thankYou": "आपके फीडबैक के लिए धन्यवाद!",
+  "thankYouSub": "आपका सुझाव Privacy Blur को बेहतर बनाने में मदद करता है।",
+  "otherPlaceholder": "हमें और बताएं...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp अपडेट हुआ और blur काम करना बंद हो गया",
+    "performance": "इसने WhatsApp को धीमा कर दिया",
+    "not_working": "यह उम्मीद के मुताबिक काम नहीं किया",
+    "too_complex": "बहुत अधिक सेटिंग्स / बहुत जटिल",
+    "no_whatsapp": "मैं अब WhatsApp का उपयोग नहीं करता",
+    "better_solution": "मुझे एक बेहतर समाधान मिला",
+    "just_testing": "मैं बस इसे आज़मा रहा था",
+    "other": "अन्य"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headline": "Szkoda, że odchodzisz",
+  "subheading": "Pomóż nam się poprawić — dlaczego odinstalowałeś?",
+  "submit": "Wyślij",
+  "thankYou": "Dziękujemy za opinię!",
+  "thankYouSub": "Twój wkład pomaga nam ulepszać Privacy Blur.",
+  "otherPlaceholder": "Powiedz nam więcej...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp zaktualizował się i rozmycie przestało działać",
+    "performance": "Spowalniało WhatsApp",
+    "not_working": "Nie działało zgodnie z oczekiwaniami",
+    "too_complex": "Zbyt wiele ustawień / zbyt skomplikowane",
+    "no_whatsapp": "Nie korzystam już z WhatsApp",
+    "better_solution": "Znalazłem lepsze rozwiązanie",
+    "just_testing": "Tylko testowałem",
+    "other": "Inne"
+  }
+}

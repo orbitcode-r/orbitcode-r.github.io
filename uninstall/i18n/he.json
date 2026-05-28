@@ -1,0 +1,18 @@
+{
+  "headline": "חבל שאתה עוזב",
+  "subheading": "עזור לנו להשתפר — למה הסרת את ההתקנה?",
+  "submit": "שלח",
+  "thankYou": "תודה על המשוב!",
+  "thankYouSub": "הקלט שלך עוזר לנו לשפר את Privacy Blur.",
+  "otherPlaceholder": "ספר לנו עוד...",
+  "reasons": {
+    "whatsapp_update": "וואטסאפ התעדכן והטשטוש הפסיק לעבוד",
+    "performance": "האט את וואטסאפ",
+    "not_working": "לא עבד כפי שציפיתי",
+    "too_complex": "יותר מדי הגדרות / מסובך מדי",
+    "no_whatsapp": "אני כבר לא משתמש בוואטסאפ",
+    "better_solution": "מצאתי פתרון טוב יותר",
+    "just_testing": "רק ניסיתי",
+    "other": "אחר"
+  }
+}

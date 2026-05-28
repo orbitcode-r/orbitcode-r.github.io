@@ -1,0 +1,18 @@
+{
+  "headline": "Sorry to see you go",
+  "subheading": "Help us improve — why did you uninstall?",
+  "submit": "Submit",
+  "thankYou": "Thank you for your feedback!",
+  "thankYouSub": "Your input helps us improve Privacy Blur.",
+  "otherPlaceholder": "Tell us more...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp updated and blur stopped working",
+    "performance": "It slowed down WhatsApp",
+    "not_working": "It didn't work as expected",
+    "too_complex": "Too many settings / too complicated",
+    "no_whatsapp": "I no longer use WhatsApp",
+    "better_solution": "I found a better solution",
+    "just_testing": "I was just testing it",
+    "other": "Other"
+  }
+}

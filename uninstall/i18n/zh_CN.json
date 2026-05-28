@@ -1,0 +1,18 @@
+{
+  "headline": "很遗憾您要离开",
+  "subheading": "帮助我们改进 — 您为什么卸载了？",
+  "submit": "提交",
+  "thankYou": "感谢您的反馈！",
+  "thankYouSub": "您的意见帮助我们改进 Privacy Blur。",
+  "otherPlaceholder": "请告诉我们更多...",
+  "reasons": {
+    "whatsapp_update": "WhatsApp 更新后模糊功能停止工作",
+    "performance": "导致 WhatsApp 变慢",
+    "not_working": "没有按预期工作",
+    "too_complex": "设置太多 / 太复杂",
+    "no_whatsapp": "我不再使用 WhatsApp",
+    "better_solution": "我找到了更好的解决方案",
+    "just_testing": "只是在试用",
+    "other": "其他"
+  }
+}
