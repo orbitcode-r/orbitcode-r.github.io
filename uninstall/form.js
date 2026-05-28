@@ -38,6 +38,7 @@
   const thankyouEl   = document.getElementById('thankyou');
   const thankyouHeadlineEl = document.getElementById('thankyou-headline');
   const thankyouSubEl      = document.getElementById('thankyou-sub');
+  const closeBtn           = document.getElementById('close-btn');
 
   let selectedReason = null;
 
@@ -49,6 +50,7 @@
     textarea.placeholder     = t.otherPlaceholder;
     thankyouHeadlineEl.textContent = t.thankYou;
     thankyouSubEl.textContent      = t.thankYouSub;
+    closeBtn.textContent           = t.closeTab;
 
     reasonsList.innerHTML = '';
 
@@ -96,8 +98,9 @@
     try {
       await fetch(WEBHOOK_URL, {
         method: 'POST',
+        mode: 'no-cors',
         body: JSON.stringify(payload),
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'text/plain' },
       });
     } catch (_) {
       // silent fail — still show thank you
@@ -108,6 +111,7 @@
   }
 
   submitBtn.addEventListener('click', handleSubmit);
+  closeBtn.addEventListener('click', () => window.close());
 
   // --- Load translations and init ---
   fetch(`i18n/${lang}.json`)

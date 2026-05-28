@@ -14,5 +14,6 @@
     "better_solution": "I found a better solution",
     "just_testing": "I was just testing it",
     "other": "Other"
-  }
+  },
+  "closeTab": "Close tab"
 }

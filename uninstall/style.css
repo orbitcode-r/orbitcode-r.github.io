@@ -281,3 +281,21 @@ body {
   justify-content: center;
   flex: 1;
 }
+
+.close-btn {
+  margin-top: 20px;
+  padding: 10px 28px;
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--border-accent);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.close-btn:hover {
+  background: var(--accent-dim);
+  transform: translateY(-1px);
+}

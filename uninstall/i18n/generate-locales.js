@@ -3,6 +3,7 @@ const path = require('path');
 
 const locales = {
   ar: {
+    closeTab: 'إغلاق التبويب',
     headline: 'نأسف لرؤيتك تغادر',
     subheading: 'ساعدنا على التحسين — لماذا قمت بإلغاء التثبيت؟',
     submit: 'إرسال',
