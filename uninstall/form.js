@@ -39,6 +39,13 @@
   const thankyouHeadlineEl = document.getElementById('thankyou-headline');
   const thankyouSubEl      = document.getElementById('thankyou-sub');
 
+  // Hide form immediately if already submitted — prevents flash on refresh
+  const alreadySubmitted = !!sessionStorage.getItem('submitted');
+  if (alreadySubmitted) {
+    formSection.style.display = 'none';
+    thankyouEl.classList.add('visible');
+  }
+
   let selectedReason = null;
 
   // --- Render form with translations ---
@@ -112,12 +119,5 @@
   fetch(`i18n/${lang}.json`)
     .then(r => r.ok ? r.json() : fetch('i18n/en.json').then(r => r.json()))
     .catch(() => fetch('i18n/en.json').then(r => r.json()))
-    .then(t => {
-      render(t);
-      // If already submitted this session (e.g. user refreshed), skip straight to thank-you
-      if (sessionStorage.getItem('submitted')) {
-        formSection.style.display = 'none';
-        thankyouEl.classList.add('visible');
-      }
-    });
+    .then(render);
 })();
